@@ -1,7 +1,11 @@
 package flashcards;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Hello world!");
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Input the number of cards:");
     }
 }
